@@ -1,9 +1,11 @@
-Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
-==================================================================== RESTART: C:\Users\perur\OneDrive\python files 1.py ====================================================================
-enter the first number:4
-enter the second number: 13
-enter the third number:456
-largest number is : 4
->>> 
+num1=int(input("enter the first number:"))
+num2=int(input("enter the second number: "))
+num3=int(input("enter the third number:"))
+if (num1>=2) and (num1>=3):
+    largest =num1
+elif (num2>=1) and (num2>=3):
+      largest =num2
+else:
+     largest=num3
+print ("largest number is :", largest)
+ 
